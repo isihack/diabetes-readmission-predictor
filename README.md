@@ -1,6 +1,6 @@
 # Diabetes Patients Early Readmission Prediction
 
-> A complete end-to-end machine learning project to predict whether a diabetic patient will be **readmitted to hospital within 30 days** of discharge — using EDA, preprocessing pipelines, model selection, and hyperparameter tuning.
+> A complete end-to-end machine learning project to predict whether a diabetic patient will be **readmitted to hospital within 30 days** of discharge  using EDA, preprocessing pipelines, model selection, and hyperparameter tuning.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)](https://scikit-learn.org)
@@ -11,7 +11,7 @@
 
 ##  1. Business Problem / Motivation
 
-Hospital readmissions are one of the most expensive and preventable problems in healthcare. Every wrong treatment choice for a diabetic patient can harm their health and lead to early readmission — driving up costs for both the patient and the healthcare system.
+Hospital readmissions are one of the most expensive and preventable problems in healthcare. Every wrong treatment choice for a diabetic patient can harm their health and lead to early readmission  driving up costs for both the patient and the healthcare system.
 
 - 🇺🇸 US hospitals pay **billions annually** in avoidable readmission penalties
 - Standard methods (e.g. LACE index) for identifying high-risk patients perform poorly
@@ -73,7 +73,7 @@ The original dataset has 3 classes. We convert to binary (readmitted `<30` days 
 <img width="357" height="356" alt="download" src="https://github.com/user-attachments/assets/c0cffca6-795e-4f50-b0d9-da93b023f16a" />
 
 
-The classes are **highly imbalanced** — only ~11% of patients are readmitted within 30 days. This drives the need for class balancing strategies.
+The classes are **highly imbalanced**  only ~11% of patients are readmitted within 30 days. This drives the need for class balancing strategies.
 
 ---
 
@@ -143,11 +143,11 @@ Most diabetes medications show a "No" (not prescribed) majority. Insulin usage a
 
 Three new features were created from existing data:
 
-**1. `visits_sum`** — total prior healthcare utilization (emergency + outpatient + inpatient):
+**1. `visits_sum`** total prior healthcare utilization (emergency + outpatient + inpatient):
 
-**2. `number_medicaments_changes`** — total medication dosage changes across 23 drug features
+**2. `number_medicaments_changes`** total medication dosage changes across 23 drug features
 
-**3. `number_medicaments`** — total number of medications actively prescribed
+**3. `number_medicaments`** total number of medications actively prescribed
 
 ---
 
@@ -346,9 +346,9 @@ ROC AUC score: 0.651
 
 ##  10. Model Interpretation
 
-### Feature Importance (Final Tuned Random Forest)
-<img width="779" height="296" alt="download" src="https://github.com/user-attachments/assets/1c46cde3-e888-4b84-818d-65417a228d94" />
+<img width="1513" height="1155" alt="image" src="https://github.com/user-attachments/assets/74445347-e2ab-43c6-b683-11d89fa695b7" />
 
+### Feature Importance (Final Tuned Random Forest)
 
 Top features driving readmission predictions:
 
