@@ -71,6 +71,7 @@ Hospital readmissions are one of the most expensive and preventable problems in 
 The original dataset has 3 classes. We convert to binary (readmitted `<30` days = 1, everything else = 0):
 
 <img width="357" height="356" alt="download" src="https://github.com/user-attachments/assets/c0cffca6-795e-4f50-b0d9-da93b023f16a" />
+<img width="357" height="356" alt="image" src="https://github.com/user-attachments/assets/b8f484b2-8361-4312-b4b9-748ab1f1a28a" />
 
 
 The classes are **highly imbalanced**  only ~11% of patients are readmitted within 30 days. This drives the need for class balancing strategies.
