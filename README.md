@@ -413,7 +413,7 @@ The model is:
 - [ ] Retrain on current EHR data (post-2008 protocols differ significantly)
 - [ ] Add SHAP values for per-patient explanations — critical for clinical adoption
 - [ ] Investigate LightGBM and CatBoost with more extensive hyperparameter search
-- [ ] Explore age-stratified models — performance degrades for older patients (Mačinec & Šefčík, 2021)
+- [ ] Explore age-stratified models — performance degrades for older patients
 - [ ] Incorporate social determinants of health (ZIP code, income proxies) as additional features
 - [ ] Build a clinical decision support UI for care coordinators
 - [ ] Explore threshold calibration to allow departments to adjust precision/recall trade-off
@@ -519,7 +519,6 @@ jupyter>=1.0.0
 ##  References
 
 1. Strack, B. et al. (2014). *Impact of HbA1c measurement on hospital readmission rates: Analysis of 70,000 clinical database patient records.* BioMed Research International. [Dataset source]
-2. Mačinec, P. & Šefčík, F. (2021). *Diabetes Patients Early Readmission Prediction.* Slovak University of Technology. [Benchmark paper — same dataset, AUC 0.651]
 3. Chawla, N. et al. (2002). *SMOTE: Synthetic Minority Over-sampling Technique.* JAIR. [SMOTE methodology]
 
 ---
